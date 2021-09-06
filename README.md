@@ -22,7 +22,7 @@ I am here to help! I am just rewriting that post in a better format.
   7. Do ```zip -j repack/services.jar classes*.dex```. This creates your services.jar with the patched dex files.
 
 - Making the zip and flash!
-  1. Now, I would prefer Windows here. See, in Linux you don't have tools (or not that I know of) that can add files in a zip without unzipping and tampering it. WinRAR, however, can. Even I had to use WinRAR. You can use Wine. But Wine is crappy so I booted straight into Windows and replaced ``` /system/framework/services.jar``` with the new services.jar in spoofify.zip.
+  1. Now, I would prefer Windows here. See, in Linux you don't have tools (or not that I know of) that can add files in a zip without unzipping and tampering it. WinRAR, however, can. Even I had to use WinRAR. You can use Wine. But Wine is crappy so I booted straight into Windows and replaced ``` /system/framework/services.jar``` with the new services.jar in spoofify.zip. (note: you can use 7z in linux)
   2. Now copy microGMagisk.zip and the patched spoofify.zip into /sdcard of your phone. (Just do ```adb push microGMagisk.zip spoofify.zip /sdcard```)
   3. Go to Magisk -> Modules Section -> Install from storage then click on the microGMagisk.zip. Flash and reboot and do the same for spoofify.zip
 
