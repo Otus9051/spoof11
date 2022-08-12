@@ -5,7 +5,7 @@ I am here to help! I am just rewriting that post in a better format.
 
 [Source](https://forum.xda-developers.com/t/signature-spoofing-on-unsuported-android-11-r-roms.4214143/)
 
-### YOU NEED MAGISK!!!
+### Rooted Method
 ### A linux machine (NOT WSL) is preferable here. I will be using bash here.
 
 - Enable ROOT-ADB-Debugging
@@ -26,6 +26,10 @@ I am here to help! I am just rewriting that post in a better format.
   2. Now copy microGMagisk.zip and the patched spoofify.zip into /sdcard of your phone. (Just do ```adb push microGMagisk.zip spoofify.zip /sdcard```)
   3. Go to Magisk -> Modules Section -> Install from storage then click on the microGMagisk.zip. Flash and reboot and do the same for spoofify.zip
 
+### Non-rooted method
+Follow https://github.com/Robin-Sch/android-signature-spoofing
+
+------------
 Done! You have successfully enabled Signature Spoofing.
 
 [OG Post](https://forum.xda-developers.com/t/signature-spoofing-on-unsuported-android-11-r-roms.4214143/)
